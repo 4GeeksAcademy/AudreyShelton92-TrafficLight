@@ -1,12 +1,67 @@
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    z-index: 1;
+}
+  
+.traffic-light-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 5%;
 
-/* 
+    
+  .light {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+    border-radius: 50%;
+    background-color: black;
+  
+  }
+  
+  .red {
+    background-color: red;
+  }
+  .glowred{
+    box-shadow: 0px 10px 19px 24px rgba(251, 4, 41, 0.4);
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .glowyellow {
+    box-shadow: 0px 10px 19px 24px rgba(250, 251, 4, 0.4);
+  }
+  
+  .green {
+    background-color: green;
+  }
+  .glowgreen {
+    box-shadow: 0px 10px 19px 24px rgba(33, 251, 4, 0.4);
+  }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+}
+
+.pole {
+    height: 500px;
+    width: 20px;
+    background-color: black;
+    margin-top: -20px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure full height for the body */
+    background-image: url('https://media.istockphoto.com/id/2166748414/photo/an-empty-road-straight-to-the-mountains.jpg?s=1024x1024&w=is&k=20&c=HnAvmf0zLndezU53_KYRJp_eXKnPvuUOh35PM2_5sUw='); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+}
