@@ -60,8 +60,8 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh; /* Ensure full height for the body */
+    height: 100vh;
     background-image: url('https://media.istockphoto.com/id/2166748414/photo/an-empty-road-straight-to-the-mountains.jpg?s=1024x1024&w=is&k=20&c=HnAvmf0zLndezU53_KYRJp_eXKnPvuUOh35PM2_5sUw='); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the image */
+    background-size: cover;
+    background-position: center;
 }
